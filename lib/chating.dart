@@ -65,7 +65,7 @@ class _ChatingState extends State<Chating> {
                 ),
                 Text("Chatting"),
 
-                
+
               ],
             ),
           ),

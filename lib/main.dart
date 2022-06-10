@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:sachin/addwidgetonuserclick.dart';
 import 'package:sachin/chating.dart';
 import 'package:sachin/createaccount.dart';
 import 'package:sachin/forgotpassword.dart';
@@ -14,12 +15,13 @@ void main(){
     initialRoute: '/',
     routes: {
       '/':(context)=>MyApp(),
-      '/second':(context)=>LoginPage(),
-      '/third':(context)=>ForgotPassword(),
-      '/fourth':(context)=>CreateAccount(),
-      '/fifth':(context)=>Chating(),
-      '/six':(context)=>MessageTile(),
-      '/seven':(context)=>MessageTileCall(),
+      '/second':(context)=>OurApp(),
+      // '/second':(context)=>LoginPage(),
+      // '/third':(context)=>ForgotPassword(),
+      // '/fourth':(context)=>CreateAccount(),
+      // '/fifth':(context)=>Chating(),
+      // '/six':(context)=>MessageTile(),
+      // '/seven':(context)=>MessageTileCall(),
     },
   ));
 }
